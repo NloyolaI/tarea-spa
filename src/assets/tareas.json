@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "titulo": "Limpiar Cocina",
+    "descripcion": "Piso / Loza",
+    "estado": false
+  },
+  {
+    "id": 2,
+    "titulo": "Limpiar Habitacion",
+    "descripcion": "Piso / lavar ropa",
+    "estado": true
+  }
+]

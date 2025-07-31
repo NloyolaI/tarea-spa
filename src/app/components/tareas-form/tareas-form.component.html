@@ -1,0 +1,13 @@
+<p></p>
+
+<form (submit)="agregarTarea(); $event.preventDefault();">
+  <label>Título:</label><br>
+  <input type="text" [(ngModel)]="titulo" name="titulo"><br><br>
+  <span *ngIf="mostrarError && !titulo.trim()" style="color: red;">* Falta un Titulo</span><br><br>
+
+  <label>Descripción:</label><br>
+  <textarea [(ngModel)]="descripcion" name="descripcion"></textarea><br><br>
+  <span *ngIf="mostrarError && !descripcion.trim()" style="color: red;">* Falta Descripción</span><br><br>
+
+  <button type="submit">Agregar</button>
+</form>

@@ -1,0 +1,20 @@
+<h2>Lista de Tareas</h2>
+
+<div *ngFor="let tarea of tareas$ | async" [ngClass]="{'tarea-item': true, 'completa': tarea.completada}">
+  <h3>{{ tarea.titulo }}</h3>
+  <p>{{ tarea.descripcion }}</p>
+  <p><strong>Estado:</strong> {{ tarea.completada ? 'Completada' : 'Pendiente' }}</p>
+
+  <button (click)="marcarComoCompletada(tarea.id)">
+    {{ tarea.completada ? 'Pendiente' : 'Completa' }}
+  </button>
+
+
+  <ng-template #completadaMsg>
+    <span style="color: green;">✔ Completada</span>
+  </ng-template>
+
+  <!--
+    <button (click)="eliminarTodas()">Eliminar todas tareas</button>
+    -->
+</div>
