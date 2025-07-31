@@ -30,5 +30,10 @@ Este proyecto es una pequeña SPA
 5. Abrir el navegador y con el siguiente link acceder
     http://localhost:4200
 
+## Link de Despliegue en Azure
+
+https://witty-coast-0b3388b10.1.azurestaticapps.net/tareas
+
+
 
    
