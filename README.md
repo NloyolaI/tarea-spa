@@ -32,7 +32,7 @@ Este proyecto es una pequeña SPA
 
 ## Link de Despliegue en Azure
 
-https://witty-coast-0b3388b10.1.azurestaticapps.net/tareas
+https://witty-coast-0b3388b10.1.azurestaticapps.net
 
 
 
